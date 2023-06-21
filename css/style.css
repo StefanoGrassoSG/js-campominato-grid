@@ -18,10 +18,10 @@ body {
 }
 
 header {
-    background-color: darkgreen;
+    background-color: lightgrey;
 }
 
-.container {
+.container-game {
     max-width: 800px;
     height: 800px;
     margin: auto;
@@ -38,11 +38,12 @@ h1 {
 
 .game-bar {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .square {
-    background-color: red;
-    border: 5px solid grey;
+    background-color: #BDBDBD;
+    border: 5px solid #FFFFFF;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -67,3 +68,4 @@ h1 {
 .active {
     background-color: aqua;
 }
+
