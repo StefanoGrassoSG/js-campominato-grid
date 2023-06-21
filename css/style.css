@@ -59,6 +59,11 @@ h1 {
     height: calc(100% / 9);
 }
 
+.square-7 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
 .active {
     background-color: aqua;
 }
