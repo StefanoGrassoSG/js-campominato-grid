@@ -13,21 +13,50 @@
     GENERAL
 **************/
 
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkgreen;
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 800px;
+    height: 800px;
     margin: auto;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.game-bar {
+    text-align: center;
 }
 
 .square {
-    width: 10%;
-    height: 120px;
     background-color: red;
     border: 5px solid grey;
-    line-height: 120px;
-    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-10 {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.square-9 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
 }
 
 .active {
