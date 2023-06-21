@@ -1,6 +1,15 @@
 
-function gnrNumber (min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+const myCont = document.querySelector('.container')
+
+for (i = 1; i <= 100; i++) {
+    const newCell = document.createElement('div')
+    newCell.classList.add('square')
+
 }
 
-console.log(gnrNumber(1, 100))
+
+
+/************
+   FUNCTIONS
+*************/
+
