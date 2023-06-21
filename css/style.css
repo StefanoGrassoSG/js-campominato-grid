@@ -14,26 +14,22 @@
 **************/
 
 body {
-    background-color: lightgray;
-}
-
-header {
-    background-color: lightgrey;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-game {
     max-width: 800px;
     height: 800px;
     margin: auto;
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgray;
 }
 
 h1 {
     text-align: center;
     margin: 20px 0;
+    color: white;
 }
 
 .game-bar {
@@ -42,26 +38,27 @@ h1 {
 }
 
 .square {
-    background-color: #BDBDBD;
-    border: 5px solid #FFFFFF;
+    background: #999999;
+    border: 3px solid white;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2px;
 }
 
 .square-10 {
-    width: calc(100% / 10);
+    width: calc((100% / 10) - 4px);
     height: calc(100% / 10);
 }
 
 .square-9 {
-    width: calc(100% / 9);
+    width: calc((100% / 9) - 4px);
     height: calc(100% / 9);
 }
 
 .square-7 {
-    width: calc(100% / 7);
+    width: calc((100% / 7) - 4px);
     height: calc(100% / 7);
 }
 
